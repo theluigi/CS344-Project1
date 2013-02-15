@@ -56,3 +56,8 @@ body {
 	max-height:500px;
 	display: inline-block;
 }
+
+#priceModal {
+	text-align: center;
+	padding: 20px;
+}
