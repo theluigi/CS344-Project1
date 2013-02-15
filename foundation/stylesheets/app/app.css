@@ -1,29 +1,44 @@
-/* Artfully masterminded by ZURB  */
-
-/* -------------------------------------------------- 
-   Table of Contents
------------------------------------------------------
-:: Shared Styles
-:: Page Name 1
-:: Page Name 2
-*/
+body {
+	font-family: 'Droid Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;;
+	background: #CCCCCC;
+	padding-top: 4px
+	padding-bottom: 10px;
+	text-align: center;
+}
 
 
-/* -----------------------------------------
-   Shared Styles
------------------------------------------ */
+footer {
+	text-align: center;
+}
 
+.button {
+  background-color: hsl(281, 100%, 39%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b619ff", endColorstr="#8700c6");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#b619ff), to(#8700c6));
+  background-image: -moz-linear-gradient(top, #b619ff, #8700c6);
+  background-image: -ms-linear-gradient(top, #b619ff, #8700c6);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b619ff), color-stop(100%, #8700c6));
+  background-image: -webkit-linear-gradient(top, #b619ff, #8700c6);
+  background-image: -o-linear-gradient(top, #b619ff, #8700c6);
+  background-image: linear-gradient(#b619ff, #8700c6);
+  border-color: #8700c6 #8700c6 hsl(281, 100%, 35%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.26);
+  -webkit-font-smoothing: antialiased;
+}
 
+.header {
+	background-color: #eeeeee;
+	padding-top: 60px;
+	padding-bottom:30px;
+}
 
-/* -----------------------------------------
-   Page Name 1
------------------------------------------ */
+.row {
+	padding-top: 30px;
+	
+}
 
-
-
-
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
-
-
+.top-bar {
+	opacity: 0.8;
+}

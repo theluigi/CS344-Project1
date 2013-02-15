@@ -9,7 +9,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Welcome to 828Tech</title>
+  <title>828Tech</title>
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
@@ -17,8 +17,8 @@
   -->
   
   <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/lib/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app/app.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
@@ -27,83 +27,98 @@
 <body>
 	<!-- Header and Nav -->
 
-	  <div class="row">
-	    <div class="three columns">
-	      <h1><img src="http://placehold.it/400x100&text=Logo" /></h1>
-	    </div>
-	    <div class="nine columns">
-	      <ul class="nav-bar right">
-	        <li><a href="#">Link 1</a></li>
-	        <li><a href="#">Link 2</a></li>
-	        <li><a href="#">Link 3</a></li>
-	        <li><a href="#">Link 4</a></li>
+	<div class="row">
+	  <div class="twelve columns, contain-to-grid sticky">
+	    <nav class="top-bar">
+	      <ul>
+	        <!-- Title Area -->
+	        <li class="name">
+	          <h1>
+	            <a href="#">
+	              828Tech
+	            </a>
+	          </h1>
+	        </li>
+	        <li class="toggle-topbar"><a href="#"></a></li>
 	      </ul>
-	    </div>
-	  </div>
 
+	      <section>
+	        <!-- Left Nav Section -->
+	       
+
+	        <!-- Right Nav Section -->
+	        <ul class="right">
+	            <li><a href="#">Home</a></li>
+			        <li><a href="#">Services</a></li>
+			        <li><a href="#">Pricing</a></li>
+			        <li><a href="#">Contact</a></li>
+	        </ul>
+	      </section>
+	    </nav>
+	  </div>
+	</div>
 	  <!-- End Header and Nav -->
 
-
-	  <!-- First Band (Slider) -->
-	  <!-- The Orbit slider is initialized at the bottom of the page by calling .orbit() on #slider -->
-
-	  <div class="row">
-	    <div class="twelve columns">
-	      <div id="slider">
-	        <img src="http://placehold.it/1000x400&text=[img 1]" />
-	        <img src="http://placehold.it/1000x400&text=[img 2]" />
-	        <img src="http://placehold.it/1000x400&text=[img 3]" />
-	        <img src="http://placehold.it/1000x400&text=[img 4]" />
-	      </div>
-
-	      <hr />
-	    </div>
-	  </div>
+		<div class="row">
+		    <div class="twelve columns">
+		      <div class="header text-center">
+		        <h1>WNC IT Solutions</h1>
+						<img src ="images/icons/smile.png" alt="smile" height="70" width="70">
+						<p>&nbsp;</p>
+						<p>828Tech provides comprehensive IT solutions for your home or business. From small to large, there is no job too small for us. Our knowledgeable and motivated staff are excited to help you with anything you need. </p>
+						<div class="text-center button-panel">
+						      <a href="#slider" class="xlarge radius button">Meet some satisfied customers &raquo;</a>
+						</div>
+		      </div>
+		    </div>
+		  </div>
 
 
 	  <!-- Three-up Content Blocks -->
 
 	  <div class="row">
 
-	    <div class="four columns">
-	      <img src="http://placehold.it/400x300&text=[img]" />
-	      <h4>This is a content section.</h4>
-	      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+	    <div class="four columns text-center">
+	      <img src ="images/icons/question.png" alt="question" height="130" width="130">
+	    		<h4>What can 828 do for me?</h4>
+					<p>828 provides a vast array of technical support for your home or business. From virus removal to custom pc builds, we can always help you out. Come on in today! No appointment necessary! </p>
+					<p><a href="#" class="small radius button">More info &raquo;</a></p>
 	    </div>
 
-	    <div class="four columns">
-	      <img src="http://placehold.it/400x300&text=[img]" />
-	      <h4>This is a content section.</h4>
-	      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+	    <div class="four columns text-center">
+	      <img src ="images/icons/computer.png" alt="computer" height="130" width="130">
+				<h4>Tech Support</h4>
+				<p>828's employees are all A+ certified, meaning that they are experienced in general computer maintenance and repair. If your computer is being slow, has a virus, or needs to be upgraded, just bring it in! </p>
+				<p><a href="#" class="small radius button">More info &raquo;</a></p>
 	    </div>
 
-	    <div class="four columns">
-	      <img src="http://placehold.it/400x300&text=[img]" />
-	      <h4>This is a content section.</h4>
-	      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+	    <div class="four columns text-center">
+	    	<img src ="images/icons/email.png" alt="email" height="130" width="130">
+				<h4>Mail Services</h4>
+				<p>828 can provide optimum mail services for your business. Host your own mailserv, or use Google Apps for business! </p>
+				</br>
+				</br>
+				</br>
+				<p><a href="#" class="small radius button">More info &raquo;</a></p>
 	    </div>
 
 	  </div>
 
 
-	  <!-- Call to Action Panel -->
+
+	  <!-- First Band (Slider) -->
+	  <!-- The Orbit slider is initialized at the bottom of the page by calling .orbit() on #slider -->
+
 	  <div class="row">
-	    <div class="twelve columns">
-
-	      <div class="panel">
-	        <h4>Get in touch!</h4>
-
-	        <div class="row">
-	          <div class="nine columns">
-	            <p>We'd love to hear from you, you attractive person you.</p>
-	          </div>
-	          <div class="three columns">
-	            <a href="#" class="radius button right">Contact Us</a>
-	          </div>
-	        </div>
-	      </div>
-
-	    </div>
+			<div class="orbit-wrapper">
+	    	<div class="twelve columns">
+	      	<div id="slider">
+	        	<img src="images/slider/Asheville_HS.jpg" />
+	        	<img src="images/slider/Grove.jpg" />
+	        	<img src="images/slider/Jerome.jpg" />
+	      	</div>
+	    	</div>
+			</div>
 	  </div>
 
 
@@ -112,8 +127,6 @@
 	  <footer class="row">
 	    <div class="twelve columns">
 	      <hr />
-	      <div class="row">
-	        <div class="six columns">
 	          <p>&copy; John Ruggiero, 2013</p>
 	        </div>
 	      </div>
