@@ -29,6 +29,7 @@ body {
 }
 
 .custom-info{
+	font-family: 'Roboto', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Droid Sans", Helvetica, Arial, "Lucida Grande", sans-serif;
 	opacity: 0.9;
 	padding: 5px;
 	margin: 0px 0px 0px 8px
