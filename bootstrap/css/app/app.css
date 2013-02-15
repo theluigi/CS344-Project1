@@ -1,4 +1,6 @@
+
 body {
+	background: #CCCCCC;
 	padding-top: 60px;
 	padding-bottom: 40px;
 	text-align: center;
@@ -31,4 +33,26 @@ body {
 	margin: 0px 0px 0px 8px
 	min-height: 350px;
 	
+}
+
+.row {
+	padding: 12px 0 20px 0;
+}
+
+.carousel {
+	background: rgba(0,0,0,0.9);
+}
+
+.carousel-caption {
+	background: rgba(151,122,212,0.8);
+	
+}
+
+.carousel-inner {
+	text-align: center;
+}
+
+.carousel .item > img {
+	max-height:500px;
+	display: inline-block;
 }
