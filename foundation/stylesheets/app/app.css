@@ -42,3 +42,22 @@ footer {
 .top-bar {
 	opacity: 0.8;
 }
+
+.orbit, .orbit-wrapper {
+max-height: 500px !important;
+}
+
+.orbit-caption {
+	height: 40px;
+	color: rgba(151,122,212,0.8);
+}
+
+span.right {
+  background: url(../../images/foundation/orbit/right-arrow.png);
+  right: 0;
+}
+
+span.left {
+  background: url(../../images/foundation/orbit/left-arrow.png);
+  left: 0;
+}
